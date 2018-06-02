@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Annance</title>   
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css"> 
+
+
+</head>
+<body>
+
+</body>
+<header class="contrainer-fluid header">
+    <div class="container">
+        <a href="#" class="logo"><img src="IMG/FARES1.png"></a>
+        <nav class="menu">
+            <a href="#">Accueil</a>
+            <a href="#Rechercher des annonces">Rechercher des annonces</a>
+            <a href="#Deposer une annance">Déposer une annonce</a>
+            <a href="#mon compte">Mon compte</a>
+            <a href="#Creer une compte">Créer un compte</a>
+        </nav>
+</header>
+
+<section class="container-fluid banner">
+    <div class="ban">
+        <img src="IMG/baner.jpg" alt="banniére du site">
+    </div>
+    <div class="loginboxp3">
+        <h1>Créez votre annonce</h1>
+        <form>
+                <div id="items">
+            <p>Catégories</p>           
+                <select name="category_group" id="category_group">
+                <option value="0" selected="selected">&laquo; Toutes les catégories &raquo;</option>
+                <option value="500" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat5000">
+                -- INFORMATIQUE ET MULTIMEDIA --
+                </option>
+                <option value="5010" id="cat5010">Téléphones</option>
+                <option value="5080" id="cat5080">Tablettes</option>
+                <option value="5030" id="cat5030"> Ordinateurs portables</option>
+                <option value="5050" id="cat5050">Ordinateurs de bureau</option>
+                <option value="5060" id="cat5060">Accessoires informatique et Gadgets</option>
+                <option value="5040" id="cat5040">Jeux vidéo et Consoles</option>
+                <option value="5070" id="cat5070">Appareils photo et Caméras</option>
+                <option value="5090" id="cat5090">Télévisions</option>
+                <option value="5020" id="cat5020">Image & Son</option>
+                <option value="2000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat2000">
+                -- VEHICULES --
+                </option>
+                <option value="2010" id="cat2010">Voitures</option>
+                <option value="2030" id="cat2030">Motos</option>
+                <option value="2060" id="cat2060">Vélos</option>
+                <option value="2070" id="cat2070">Véhicules Professionnels</option>
+                <option value="2050" id="cat2050">Bateaux</option>
+                <option value="2040" id="cat2040">Pièces et Accessoires pour véhicules</option>
+                <option value="1000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat1000">
+                -- IMMOBILIER --
+                </option>
+                <option value="1010" id="cat1010">Appartements</option>
+                <option value="1020" id="cat1020">Maisons et Villas</option>
+                <option value="1050" id="cat1050">Bureaux et Plateaux</option>
+                <option value="1060" id="cat1060">Magasins, Commerces et Locaux industriels</option>
+                <option value="1080" id="cat1080">Terrains et Fermes</option>
+                <option value="1030" id="cat1030">Locations de vacances</option>
+                <option value="1100" id="cat1100">Colocations</option>
+                <option value="1090" id="cat1090">Autre Immobilier</option>
+                <option value="3000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat3000">
+                -- POUR LA MAISON ET JARDIN --
+                </option>
+                <option value="3010" id="cat3010">Electroménager et Vaisselles</option>
+                <option value="3020" id="cat3020">Meubles et Décoration</option>
+                <option value="3040" id="cat3040">Jardin et Outils de bricolage</option>
+                <option value="8000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat8000">
+                -- HABILLEMENT ET BIEN ETRE --
+                </option>
+                <option value="3050" id="cat3050">Vêtements</option>
+                <option value="3150" id="cat3150">Chaussures</option>
+                <option value="3160" id="cat3160">Montres et Bijoux</option>
+                <option value="3060" id="cat3060"> Sacs et Accessoires</option>
+                <option value="3030" id="cat3030">Vêtements pour enfant et bébé</option>
+                <option value="3130" id="cat3130">Equipements pour enfant et bébé</option>
+                <option value="3070" id="cat3070">Produits de beauté</option>
+                <option value="4000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat4000">
+                -- LOISIRS ET DIVERTISSEMENT --
+                </option>
+                <option value="4010" id="cat4010">Sports et Loisirs</option>
+                <option value="4030" id="cat4030">Animaux</option>
+                <option value="4070" id="cat4070">Instruments de Musique</option>
+                <option value="4060" id="cat4060">Art et Collections</option>
+                <option value="4050" id="cat4050">Voyages et Billetterie</option>
+                <option value="4040" id="cat4040">Films, Livres, Magazines</option>
+                <option value="6000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat6000">
+                -- EMPLOI ET SERVICES --
+                </option>
+                <option value="6010" id="cat6010">Offres d'emploi</option>
+                <option value="6020" id="cat6020">Demandes d'emploi
+                
+                </option>
+                 <option value="6130" id="cat6130">Stages</option>
+                <option value="6030" id="cat6030">Services</option>
+                <option value="6040" id="cat6040">Cours et Formations
+                
+                </option>
+                <option value="9000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat9000">
+                -- ENTREPRISES --
+                </option>
+                <option value="6100" id="cat6100">Business et Affaires commerciales</option>
+                <option value="6090" id="cat6090">Matériels Professionnels</option>
+                <option value="6120" id="cat6120">Stocks et Vente en gros</option>
+                <option value="7000" style="background-color:#dcdcc3;font-weight:bold;" disabled="disabled" id="cat7000">
+                -- Autres --
+                </option>
+                <option value="7010" id="cat7010">AUTRES</option>
+                </select>
+
+            <p>Ville</p> 
+            <select name="region" id="region">
+                <option value="0">&laquo; Sélectionnez ville &raquo;</option>
+                <option value="5">Casablanca</option>
+                <option value="13">Agadir</option>
+                <option value="17">Al Hoceïma</option>
+                <option value="14">Béni Mellal</option> 
+                <option value="7">El Jadida</option>
+                <option value="18">Errachidia</option>
+                <option value="3">Fès</option> 
+                <option value="4">Kénitra</option> 
+                <option value="19">Khénifra</option>
+                <option value="1">Khouribga</option>
+                <option value="20">Larache</option>
+                <option value="8">Marrakech</option>
+                <option value="9">Meknès</option>
+                <option value="21">Nador</option>
+                <option value="22">Ouarzazate</option>
+                <option value="10">Oujda</option>
+                <option value="12">Rabat</option>
+                <option value="2">Safi</option>
+                <option value="23">Settat</option>
+                <option value="6">Salé</option>
+                <option value="15">Tanger</option>
+                <option value="16">Taza</option>
+                <option value="11">Tétouan </option>
+                <option value="other" style="color: red">Choisir une autre ville...</option>
+                </select> 
+
+               
+            <p>Titre</p>    
+            <input type"text" name=""  id="in"placeholder="Titre">
+            <p>Text de L'annonce</p>    
+            <textarea name="ameliorer" id="ameliorer" rows="8" cols="42" placeholder="Enter Text de L'annonce"></textarea>
+            <p>Prix</p>    
+            <input type"text" name="" id="in" placeholder="Enter Prix">
+            <p>Photo</p>   
+            <input tabindex="-1" class="imageupload" type="file" name="images[]" accept="image/jpeg,image/gif,image/png,image/bmp" data-url="/ai/upload_images/0" multiple="">
+            <input type="submit" name=""  id="in" value="Déposez votre annonce"><br/>
+        </div>
+        </form>
+    </div>   
+</section>
+
+
+<footer>
+    <p>Web ads , CopyRights &copy; 2018</p>
+</footer>
+                  
+
+
+</html>
